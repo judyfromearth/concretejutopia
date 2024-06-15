@@ -44,7 +44,7 @@ const ControlRoom = () => {
   return (
     <div className="room-container" style={{ backgroundImage: "url('/images/통제실.png')" }}>
       <h2>통제실</h2>
-      <img src="/images/001.png" alt="Hint" className="hint-image" />
+      <img src="/images/006.png" alt="Hint" className="hint-image" />
       <form onSubmit={handleSubmit}>
         <input
           type="password"
