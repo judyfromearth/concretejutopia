@@ -22,7 +22,7 @@ const ExternalRoom = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password === '42.159') {
+    if (password === '42.195') {
       localStorage.setItem('externalRoomUnlocked', 'true');
       setIsUnlocked(true);
       navigate('/room/외부인의 방/next');
